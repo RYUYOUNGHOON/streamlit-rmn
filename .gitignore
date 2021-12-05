@@ -91,12 +91,8 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +123,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+####
+saved/checkpoints/*
+saved/logs/*
+debug
+ssh.sh
+vim-markdown-preview.html
+deploy.prototxt.txt
+res10_300x300_ssd_iter_140000.caffemodel
+run.sh
+saved
+pretrained_ckpt
+version.py
+*.swp
